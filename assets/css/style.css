@@ -101,11 +101,9 @@ h3 {
 @media screen and (max-width : 980px) {
     .container, .content, .main{
         width: 700px;
-        margin: auto;
+        margin-left: 20px;
+        overflow: hidden; 
     }
-}
-
-@media screen and (max-width: 980px) {
       #me {
           height: 35%;
           width: 35%;
@@ -117,20 +115,11 @@ h3 {
           height: 55%;
           width: 55%;
       }
-    }
-@media screen and (max-width: 768px) {
     td {
         display: block;
     }
-}
-@media screen and (max-width: 768px) {
-    form, textarea {
-        overflow: hidden;
-    }
-}
-@media screen and (max-width: 768px) {
     .main, .container, .content{
-      width: 500px;
+      width: 610px;
     }
   }
 
@@ -138,25 +127,23 @@ h3 {
 @media screen and (max-width: 640px) {
     .main, .container, .content, body{
         width: auto;
+        margin: 5px;
     }
-}
-@media screen and (max-width: 640px) {
     .container{
         height: auto;
         width: 100%;
     }
-  }
-@media screen and (max-width: 640px) {
     .header, .topnav{
         width: 100%;
         text-align: center;
     }
-  }
-  @media screen and (max-width: 640px) {
     #me {
         height: 100%;
         width: 100%;
         padding: 0px;
         margin-left: 0px;
+    }
+    .box1 {
+        size: auto;
     }
   }
